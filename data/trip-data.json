@@ -1,7 +1,7 @@
 {
   "tripName": "Pittsbirgh",
   "currency": "USD",
-  "updatedAt": "2026-03-14T16:22:39.038Z",
+  "updatedAt": "2026-03-14T16:28:49.358Z",
   "people": [
     {
       "id": "mmqi3pai-x2q4va",
@@ -27,7 +27,7 @@
   "expenses": [
     {
       "id": "mmqicf1q-segft1",
-      "title": "Dinner",
+      "title": "Dinner Charges",
       "notes": "Tax + Service Charges",
       "amountCents": 1475,
       "paidById": "mmqi3pai-x2q4va",
