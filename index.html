@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spliwise Lite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Trip expense split</p>
+        <h1 id="trip-title">Loading trip summary...</h1>
+        <p id="trip-description" class="hero-text">
+          This page is view-only. It shows the latest trip data published by the organizer.
+        </p>
+        <div class="hero-meta">
+          <span id="trip-currency" class="meta-pill">USD</span>
+          <span id="trip-updated" class="meta-pill">Loading data</span>
+        </div>
+      </div>
+
+      <div class="hero-actions viewer-note">
+        <p class="viewer-note-label">View only</p>
+        <p id="data-status" class="share-status" aria-live="polite">
+          Loading trip data from the published JSON file.
+        </p>
+      </div>
+    </header>
+
+    <main class="layout layout-single">
+      <section class="panel panel-list">
+        <div class="panel-header">
+          <p class="section-kicker">1. Trip items</p>
+          <h2>Recorded expenses</h2>
+        </div>
+
+        <div id="expense-list" class="expense-list"></div>
+      </section>
+    </main>
+
+    <section class="summary-shell">
+      <div class="panel panel-summary">
+        <div class="panel-header">
+          <p class="section-kicker">2. End summary</p>
+          <h2>Share for each person</h2>
+        </div>
+
+        <div id="summary-cards" class="summary-cards"></div>
+      </div>
+
+      <div class="panel panel-summary">
+        <div class="panel-header">
+          <p class="section-kicker">3. Suggested settlement</p>
+          <h2>Who should pay whom</h2>
+        </div>
+
+        <div id="settlement-list" class="settlement-list"></div>
+      </div>
+    </section>
+  </div>
+
+  <template id="empty-state-template">
+    <div class="empty-state">
+      <p class="empty-title"></p>
+      <p class="empty-text"></p>
+    </div>
+  </template>
+
+  <script src="shared.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
