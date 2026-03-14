@@ -1,7 +1,7 @@
 {
   "tripName": "Pittsburgh",
   "currency": "USD",
-  "updatedAt": "2026-03-14T16:33:48.721Z",
+  "updatedAt": "2026-03-14T17:07:51.719Z",
   "people": [
     {
       "id": "mmqi3pai-x2q4va",
@@ -25,6 +25,48 @@
     }
   ],
   "expenses": [
+    {
+      "id": "mmqkwwwg-ghhvnb",
+      "title": "Parking Unknown",
+      "notes": "",
+      "amountCents": 1800,
+      "paidById": "mmqi3rud-fjfk5a",
+      "participantIds": [
+        "mmqi3pai-x2q4va",
+        "mmqi3rud-fjfk5a",
+        "mmqi3td2-lo28n9",
+        "mmqi3v36-8cmd1e",
+        "mmqi3wh2-pk1r9y"
+      ]
+    },
+    {
+      "id": "mmqkwlig-si8929",
+      "title": "Incline Parking",
+      "notes": "",
+      "amountCents": 700,
+      "paidById": "mmqi3td2-lo28n9",
+      "participantIds": [
+        "mmqi3pai-x2q4va",
+        "mmqi3rud-fjfk5a",
+        "mmqi3td2-lo28n9",
+        "mmqi3v36-8cmd1e",
+        "mmqi3wh2-pk1r9y"
+      ]
+    },
+    {
+      "id": "mmqkvfyi-s2fio3",
+      "title": "Incline Ticket",
+      "notes": "",
+      "amountCents": 2500,
+      "paidById": "mmqi3td2-lo28n9",
+      "participantIds": [
+        "mmqi3pai-x2q4va",
+        "mmqi3rud-fjfk5a",
+        "mmqi3td2-lo28n9",
+        "mmqi3v36-8cmd1e",
+        "mmqi3wh2-pk1r9y"
+      ]
+    },
     {
       "id": "mmqicf1q-segft1",
       "title": "Dinner Charges",
